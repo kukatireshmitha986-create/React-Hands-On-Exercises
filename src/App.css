@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f4f7;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.app > h1 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 40px;
+}
+
+section {
+  max-width: 600px;
+  margin: 0 auto 45px;
+}
+
+section > h3 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+}
