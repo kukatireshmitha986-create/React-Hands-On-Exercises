@@ -2,23 +2,41 @@
 
 A professional React.js mini project containing three practical hands-on exercises covering **Props, State, Event Handling, Form Handling, and Reusable Components**.
 
+## 🌐 Live Demo
+
+🚀 **Live Website:**  
+https://kukatireshmitha986-create.github.io/React-Hands-On-Exercises/
+
+🔗 **GitHub Repository:**  
+https://github.com/kukatireshmitha986-create/React-Hands-On-Exercises
+
+---
+
+## 📸 Live Demo Screenshot
+
+The following screenshot shows the deployed React application containing all three hands-on exercises.
+
+![React Hands-On Exercises - Live Demo](screenshots/react-hands-on-exercises.png)
+
+> **Screenshot Location:** `screenshots/react-hands-on-exercises.png`
+
+---
+
 ## 📌 Project Overview
 
-This project is developed as part of a React.js practical assignment. It demonstrates the implementation of three independent hands-on exercises in a single React application.
+This project is developed as part of a React.js practical assignment. It demonstrates three independent hands-on exercises in a single React application.
 
-The project includes:
+### Included Exercises
 
 1. **Student Profile Using Props**
 2. **Student Marks Using Props + State**
 3. **Login Form Using State**
 
-The application is built using **React.js and Vite** with a clean component-based folder structure.
+The application is built using **React.js and Vite** with a clean component-based architecture.
 
 ---
 
 ## 🎯 Project Objectives
-
-The main objectives of this project are:
 
 - Understand React functional components.
 - Learn how to pass data using Props.
@@ -180,7 +198,6 @@ If either field is empty:
     │
     ├── src/
     │   ├── components/
-    │   │   │
     │   │   ├── Component1/
     │   │   │   ├── StudentProfile.jsx
     │   │   │   └── StudentProfile.css
@@ -210,77 +227,17 @@ If either field is empty:
 
 ---
 
-# 🧱 Component Details
+# 🖥️ Application Preview
 
-## Component 1 — StudentProfile
+## Live Application
 
-File:
+The React application is deployed and accessible online:
 
-    src/components/Component1/StudentProfile.jsx
+🔗 **https://kukatireshmitha986-create.github.io/React-Hands-On-Exercises/**
 
-Purpose:
+### Screenshot
 
-Displays student information received through Props.
-
-Props:
-
-    name
-    rollNo
-    course
-    college
-
----
-
-## Component 2 — StudentMarks
-
-File:
-
-    src/components/Component2/StudentMarks.jsx
-
-Purpose:
-
-Displays student marks and allows the user to increase or decrease the marks.
-
-Props:
-
-    name
-    subject
-
-State:
-
-    marks
-
-Default Marks:
-
-    50
-
-Mark Increment:
-
-    +5
-
-Mark Decrement:
-
-    -5
-
----
-
-## Component 3 — LoginForm
-
-File:
-
-    src/components/Component3/LoginForm.jsx
-
-Purpose:
-
-Provides a simple login form using React State.
-
-State Variables:
-
-    username
-    password
-    message
-
-The component validates the entered information and displays the appropriate message.
+![React Hands-On Exercises](screenshots/react-hands-on-exercises.png)
 
 ---
 
@@ -291,23 +248,23 @@ The component validates the entered information and displays the appropriate mes
             ▼
     React App Component
             │
-            ├───────────────┐
-            │               │
-            ▼               ▼
-    Student Profile    Student Marks
-       Using Props      Props + State
-            │               │
-            └───────┬───────┘
-                    │
-                    ▼
-                Login Form
-                 Using State
-                    │
-                    ▼
-             Login Validation
-                    │
-             ┌──────┴──────┐
-             ▼             ▼
+            ├──────────────────┐
+            │                  │
+            ▼                  ▼
+    Student Profile      Student Marks
+      Using Props         Props + State
+            │                  │
+            └────────┬─────────┘
+                     │
+                     ▼
+                 Login Form
+                  Using State
+                     │
+                     ▼
+              Login Validation
+                     │
+              ┌──────┴──────┐
+              ▼             ▼
        Login Successful   Error Message
 
 ---
@@ -326,13 +283,7 @@ The component validates the entered information and displays the appropriate mes
 - Clean folder organization.
 - Responsive card-based UI.
 - GitHub Pages deployment.
-- Vite-based development environment.
-
----
-
-# 🖼️ Project Screenshot
-
-![React Hands-On Exercises](screenshots/react-hands-on-exercises.png)
+- GitHub Actions automated deployment.
 
 ---
 
@@ -372,11 +323,9 @@ The production files will be generated inside:
 
 # 👀 Preview Production Build
 
-After building the project, run:
+After building the project:
 
     npm run preview
-
-This allows the production build to be tested locally.
 
 ---
 
@@ -384,7 +333,7 @@ This allows the production build to be tested locally.
 
 The project is deployed using **GitHub Actions** and **GitHub Pages**.
 
-Deployment workflow:
+### Deployment Flow
 
     Developer
         ↓
@@ -401,10 +350,10 @@ Deployment workflow:
     Upload Pages Artifact
         ↓
     Deploy to GitHub Pages
+        ↓
+    Live Website
 
----
-
-# ⚙️ GitHub Actions Workflow
+### GitHub Actions Workflow
 
 The deployment workflow is located at:
 
@@ -416,19 +365,17 @@ The workflow automatically builds and deploys the React application whenever cha
 
 # 🔗 Project Links
 
-## GitHub Repository
-
-https://github.com/kukatireshmitha986-create/React-Hands-On-Exercises
-
-## Live Demo
+### 🚀 Live Demo
 
 https://kukatireshmitha986-create.github.io/React-Hands-On-Exercises/
+
+### 📦 GitHub Repository
+
+https://github.com/kukatireshmitha986-create/React-Hands-On-Exercises
 
 ---
 
 # 🧪 Testing
-
-The following test cases were performed.
 
 ## Test Case 1 — Student Profile
 
@@ -527,8 +474,6 @@ Status:
 
 # 📚 React Concepts Demonstrated
 
-This project demonstrates the following important React concepts:
-
 ### Functional Components
 
 Each exercise is implemented using a reusable functional component.
@@ -581,8 +526,6 @@ After completing this project, the following concepts are understood:
 
 # 🚀 Future Enhancements
 
-Possible future improvements include:
-
 - Add multiple student profiles.
 - Add student registration functionality.
 - Add total marks and percentage calculation.
@@ -591,7 +534,7 @@ Possible future improvements include:
 - Add form reset functionality.
 - Add React Router for multiple pages.
 - Add local storage for student data.
-- Add a responsive navigation bar.
+- Add responsive navigation.
 - Add dark mode.
 - Add backend API integration.
 - Add database integration.
@@ -613,21 +556,18 @@ https://github.com/kukatireshmitha986-create
 
 # 📌 Project Information
 
-**Project Name:** React Hands-On Exercises
-
-**Project Type:** React.js Mini Project / Hands-On Assignment
-
-**Frontend:** React.js
-
-**Language:** JavaScript
-
-**Styling:** CSS3
-
-**Build Tool:** Vite
-
-**Deployment:** GitHub Pages
-
-**Version Control:** Git & GitHub
+| Category | Details |
+|---|---|
+| Project Name | React Hands-On Exercises |
+| Project Type | React.js Mini Project / Hands-On Assignment |
+| Frontend | React.js |
+| Language | JavaScript |
+| Markup | JSX |
+| Styling | CSS3 |
+| Build Tool | Vite |
+| Deployment | GitHub Pages |
+| Version Control | Git & GitHub |
+| Status | Completed |
 
 ---
 
@@ -641,35 +581,22 @@ The second exercise combines Props and State to create an interactive student ma
 
 The third exercise demonstrates State management through a controlled login form with basic validation and conditional messages.
 
-Together, these exercises provide practical experience with fundamental React concepts such as components, Props, State, Hooks, event handling, controlled inputs, and conditional rendering.
+Together, these exercises provide practical experience with fundamental React concepts such as Components, Props, State, Hooks, Event Handling, Controlled Inputs, and Conditional Rendering.
 
 ---
 
 # ✅ Final Status
 
-Project Status:
+**Project Status:** Completed
 
-    Completed
+**Live Demo:**  
+https://kukatireshmitha986-create.github.io/React-Hands-On-Exercises/
 
-Development:
+**GitHub Repository:**  
+https://github.com/kukatireshmitha986-create/React-Hands-On-Exercises
 
-    React + Vite
-
-Components:
-
-    3
-
-Deployment:
-
-    GitHub Pages
-
-Repository:
-
-    https://github.com/kukatireshmitha986-create/React-Hands-On-Exercises
-
-Live Application:
-
-    https://kukatireshmitha986-create.github.io/React-Hands-On-Exercises/
+**Screenshot:**  
+`screenshots/react-hands-on-exercises.png`
 
 ---
 
